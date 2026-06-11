@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+dist/
+build/
+.env
+
+# Python Virtual Environments
+.venv/
+.venv-1/
+env/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# App Data (Exclude local databases and images)
+backend/training_data.db
+backend/flagged_images/
+
+# Editor 
+.vscode/
+.idea/
